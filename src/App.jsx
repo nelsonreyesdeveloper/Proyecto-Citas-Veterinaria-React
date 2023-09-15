@@ -26,7 +26,7 @@ function App() {
       <div className='bg-gray-100 '>
         <Header />
 
-        <div className='w-[95%]  gap-x-5 lg:max-w-7xl mx-auto flex flex-col md:flex-row mb-10'>
+        <div className='w-[95%]  gap-x-5 lg:max-w-7xl mx-auto flex flex-col md:flex-row pb-10 '>
           <Formulario pacientes={pacientes} setPacientes={setPacientes} pacienteObjet={pacienteObjet} setPaciente={setPaciente} />
 
           <ListadoPacientes pacientes={pacientes} setPaciente={setPaciente} paciente={pacienteObjet} deletePatient={deletePatient} />
