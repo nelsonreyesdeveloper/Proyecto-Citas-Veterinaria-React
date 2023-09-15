@@ -119,7 +119,7 @@ export default function Formulario({ pacientes, setPacientes, pacienteObjet, set
 
     return (
         <>
-            <div className='p-5 shadow-lg shadow-indigo-100 w-full md:basis-1/3 bg-white rounded-md h-screen'>
+            <div className='p-5 shadow-lg shadow-indigo-100 w-full md:basis-1/3 bg-white rounded-md '>
                 <h1 className='text-3xl uppercase text-center my-5 text-black opacity-95 font-encabezado font-bold'>Registro</h1>
 
                 <div className="form">
